@@ -1,0 +1,55 @@
+nav .start-home,
+a:nth-child(4):hover ~ .animation {
+  width: 105px;
+  left: 345px;
+  background-color: #4bca6b;
+}
+
+.block1 {
+  box-sizing: border-box;
+
+  width: 760px;
+  height: 250px;
+  background: #f7f7f7;
+  background: #525151;
+  border-color: #f7f7f7;
+  margin-left: calc(50% - 380px);
+}
+
+.image {
+  float: left;
+  left: 40px;
+  top: 25px;
+  position: relative;
+
+  display: inline-block;
+}
+
+.tex1 {
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  float: left;
+  /* margin-top: 25px; */
+  margin-left: 75px;
+  width: 60%;
+  height: 183px;
+  background: #f7f7f7;
+  padding: 25px;
+  text-align: left;
+  display: inline-block;
+}
+
+.name {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #5d7ada;
+
+  padding-bottom: 19px;
+}
+
+.in {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 8px;
+}
