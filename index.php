@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("db.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <title>Viva-Link &nbsp; Home</title>
@@ -12,7 +16,7 @@
       type="image/png"
       href="images/subject-icon-12.jpg"
     />
-    <link rel="stylesheet" href="../css/box_design.css" />
+    <link rel="stylesheet" href="css/box_design.css" />
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
@@ -54,18 +58,16 @@
       <div class="red">
         <div class="wrapper">
           <div class="container">
-            <form class="form">
-              <label
-                ><h1
-                  style="color:  #39424e;font-family:serif;  font-weight: bold; margin-bottom: 30px;"
-                >
+            <form action="login.php" method="post" class="form">
+              <label>
+                <h1 style="color:  #39424e;font-family:serif;  font-weight: bold; margin-bottom: 30px;">
                   WELCOME
                 </h1>
               </label>
               <div id="form">
-                <input type="text" placeholder="Username" />
-                <input type="password" placeholder="Password" />
-                <button type="button" id="login-button" onclick="fade()">
+                <input type="text" name="user" id="user" placeholder="Username" />
+                <input type="password" name="pass" id="pass" placeholder="Password" />
+                <button type="submit" id="login-button" onclick="fade()">
                   Login
                 </button>
               </div>
