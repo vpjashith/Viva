@@ -1,9 +1,9 @@
 nav {
   position: absolute;
-  width: 580px;
+  width: 560px;
   height: 40px;
   margin-top: 12px;
-  left: calc(50% - 290px);
+  left: calc(50% - 280px);
   display: flex;
   vertical-align: center;
   background-color: #39424e;
@@ -39,13 +39,13 @@ a:nth-child(2) {
   width: 100px;
 }
 a:nth-child(3) {
-  width: 100px;
+  width: 110px;
 }
 a:nth-child(4) {
-  width: 135px;
+  width: 120px;
 }
 a:nth-child(5) {
-  width: 135px;
+  width: 120px;
 }
 
 nav .start-home,
@@ -62,20 +62,20 @@ a:nth-child(2):hover ~ .animation {
 }
 nav .start-blog,
 a:nth-child(3):hover ~ .animation {
-  width: 100px;
+  width: 110px;
   left: 210px;
   background-color: #3498db;
 }
 nav .start-portefolio,
 a:nth-child(4):hover ~ .animation {
-  width: 135px;
-  left: 310px;
+  width: 120px;
+  left: 320px;
   background-color: #4bca6b;
 }
 nav .start-portefolio,
 a:nth-child(5):hover ~ .animation {
-  width: 135px;
-  left: 445px;
+  width: 120px;
+  left: 440px;
   background-color: #ca4bb5;
 }
 

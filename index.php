@@ -5,6 +5,7 @@ require_once("db.php");
 <!DOCTYPE html>
 <html lang="en">
   <title>Viva-Link &nbsp; Home</title>
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,11 +48,11 @@ require_once("db.php");
           <div style="display: inline-block;">VIVA - LINK</div>
         </div>
         <nav>
-          <a href="index.php">Home</a>
+          <a href="index.php">Login</a>
 
           <a href="admin_login.php">Admin login</a>
-          <a href="./question.html">Question</a>
-          <a href="./contact.html">Contact</a>
+          <a href="question.php">Question</a>
+          <a href="./html/contact.html">Contact</a>
           <div class="animation start-home"></div>
         </nav>
       </div>
@@ -60,13 +61,25 @@ require_once("db.php");
           <div class="container">
             <form action="login.php" method="post" class="form">
               <label>
-                <h1 style="color:  #39424e;font-family:serif;  font-weight: bold; margin-bottom: 30px;">
+                <h1
+                  style="color:  #39424e;font-family:serif;  font-weight: bold; margin-bottom: 30px;"
+                >
                   WELCOME
                 </h1>
               </label>
               <div id="form">
-                <input type="text" name="user" id="user" placeholder="Username" />
-                <input type="password" name="pass" id="pass" placeholder="Password" />
+                <input
+                  type="text"
+                  name="user"
+                  id="user"
+                  placeholder="Username"
+                />
+                <input
+                  type="password"
+                  name="pass"
+                  id="pass"
+                  placeholder="Password"
+                />
                 <button type="submit" id="login-button" onclick="fade()">
                   Login
                 </button>

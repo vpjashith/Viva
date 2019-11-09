@@ -10,8 +10,6 @@ $dbname = "viva";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 //Check Connection
-if($conn->connect_error) {
-	die("Connection Failed: ". $conn->connect_error);
+if ($conn->connect_error) {
+	die("Connection Failed: " . $conn->connect_error);
 }
-
-?>

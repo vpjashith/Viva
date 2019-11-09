@@ -5,51 +5,63 @@ a:nth-child(4):hover ~ .animation {
   background-color: #4bca6b;
 }
 
-.block1 {
-  box-sizing: border-box;
-
-  width: 760px;
-  height: 250px;
-  background: #f7f7f7;
-  background: #525151;
-  border-color: #f7f7f7;
-  margin-left: calc(50% - 380px);
-}
-
-.image {
-  float: left;
-  left: 40px;
-  top: 25px;
-  position: relative;
-
-  display: inline-block;
-}
-
 .tex1 {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 50px;
+  background: #c6cad4;
+  text-align: center;
   border-radius: 20px;
   box-sizing: border-box;
-  margin-top: 25px;
+
   float: left;
   /* margin-top: 25px; */
-  margin-left: 75px;
-  width: 60%;
+
+  width: 35%;
+
   height: 183px;
-  background: #f7f7f7;
-  padding: 25px;
+  /* background: #f7f7f7; */
+
   text-align: left;
-  display: inline-block;
+  padding: 7px;
 }
 
 .name {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   color: #5d7ada;
-
-  padding-bottom: 19px;
+  box-sizing: border-box;
+  padding-top: 7px;
+  padding-bottom: 17px;
+  transition: 0.5s;
 }
 
 .in {
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  padding-bottom: 8px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-bottom: 9px;
+}
+
+.jashid {
+  height: 169px;
+  transition: 0.5s;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.jashid:hover {
+  height: 169px;
+  border-radius: 20px;
+  background: #72859e;
+  color: white;
+}
+
+.jashid:hover > .name {
+  color: #5fdf7f;
+}
+
+body {
+  min-width: 1000px; /* Suppose you want minimum width of 1000px */
+  width: auto !important; /* Firefox will set width as auto */
+  width: 1000px;
 }
